@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1b1ebc4-ba5d-4ea8-aab1-3d9dbf58ffd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/App_CRUD_LARAVEL.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +10,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/app_crud/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -26,7 +21,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_crud/resources/views/admin/contents/delete.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-78">
+            <state relative-caret-position="220">
               <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
             </state>
           </provider>
@@ -35,19 +30,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_crud/resources/views/admin/contents/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="506">
               <caret line="23" column="110" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="110" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_crud/resources/views/admin/contents/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app_crud/app/Http/Controllers/Backend/ProductController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="52" />
               <folding>
-                <element signature="e#203#226#0#HTML" expanded="true" />
+                <element signature="e#48#84#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_crud/resources/views/admin/contents/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="330">
+              <caret line="15" column="10" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="15" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -65,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_crud/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="550">
               <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
             </state>
           </provider>
@@ -109,9 +113,9 @@
         <option value="$PROJECT_DIR$/app_crud/app/Models/Backend/ProductModel.php" />
         <option value="$PROJECT_DIR$/app_crud/resources/views/admin/contents/index.blade.php" />
         <option value="$PROJECT_DIR$/app_crud/resources/views/admin/contents/create.blade.php" />
-        <option value="$PROJECT_DIR$/app_crud/app/Http/Controllers/Backend/ProductController.php" />
         <option value="$PROJECT_DIR$/app_crud/resources/views/admin/contents/edit.blade.php" />
         <option value="$PROJECT_DIR$/app_crud/resources/views/admin/contents/delete.blade.php" />
+        <option value="$PROJECT_DIR$/app_crud/app/Http/Controllers/Backend/ProductController.php" />
       </list>
     </option>
   </component>
@@ -210,6 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,17 +227,79 @@
               <item name="App_CRUD_LARAVEL" type="462c0819:PsiDirectoryNode" />
               <item name="app_crud" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="App_CRUD_LARAVEL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App_CRUD_LARAVEL" type="462c0819:PsiDirectoryNode" />
+              <item name="app_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="App_CRUD_LARAVEL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App_CRUD_LARAVEL" type="462c0819:PsiDirectoryNode" />
+              <item name="app_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="App_CRUD_LARAVEL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App_CRUD_LARAVEL" type="462c0819:PsiDirectoryNode" />
+              <item name="app_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="App_CRUD_LARAVEL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App_CRUD_LARAVEL" type="462c0819:PsiDirectoryNode" />
+              <item name="app_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="App_CRUD_LARAVEL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App_CRUD_LARAVEL" type="462c0819:PsiDirectoryNode" />
+              <item name="app_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="App_CRUD_LARAVEL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App_CRUD_LARAVEL" type="462c0819:PsiDirectoryNode" />
+              <item name="app_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="App_CRUD_LARAVEL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App_CRUD_LARAVEL" type="462c0819:PsiDirectoryNode" />
+              <item name="app_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="App_CRUD_LARAVEL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App_CRUD_LARAVEL" type="462c0819:PsiDirectoryNode" />
+              <item name="app_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="contents" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravel1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -269,6 +336,8 @@
       <updated>1561819415108</updated>
       <workItem from="1561819416295" duration="9830000" />
       <workItem from="1562065548084" duration="827000" />
+      <workItem from="1562426712213" duration="1296000" />
+      <workItem from="1562470195627" duration="5215000" />
     </task>
     <task id="LOCAL-00001" summary="30/6/19">
       <created>1561829220531</created>
@@ -281,12 +350,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10657000" />
+    <option name="totallyTimeSpent" value="17168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16641453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1709531" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -416,16 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_crud/app/Http/Controllers/Backend/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="79" column="43" lean-forward="true" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
-          <folding>
-            <element signature="e#48#84#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_crud/app/Models/Backend/ProductModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -433,40 +492,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_crud/resources/views/admin/contents/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="23" column="110" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_crud/resources/views/admin/contents/delete.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
+        <state relative-caret-position="220">
           <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_crud/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/app_crud/resources/views/admin/contents/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_crud/resources/views/admin/contents/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        <state relative-caret-position="506">
+          <caret line="23" column="110" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="110" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app_crud/resources/views/admin/contents/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_crud/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_crud/resources/views/admin/contents/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_crud/app/Http/Controllers/Backend/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="52" />
           <folding>
-            <element signature="e#203#226#0#HTML" expanded="true" />
+            <element signature="e#48#84#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
